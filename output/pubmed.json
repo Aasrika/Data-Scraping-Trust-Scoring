@@ -1,0 +1,38 @@
+{
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42097503/",
+  "source_type": "pubmed",
+  "author": "G Sanchez-Antolín, G de la Poza, L Hidalgo, M V Aguilera, B Cuyàs, F Ledesma, E Sanz, V Fanjul, C L Oeste, J L Calleja",
+  "published_date": "2026",
+  "language": "en",
+  "region": "N/A",
+  "topic_tags": [
+    "Education",
+    "AI",
+    "Healthcare",
+    "Data Science",
+    "classification",
+    "machine learning",
+    "health records",
+    "clinical data",
+    "hospital ehrs",
+    "hcv risk"
+  ],
+  "trust_score": 0.575,
+  "content_chunks": [
+    "OBJECTIVE: Hepatitis C virus (HCV) infection poses a global health threat with many undiagnosed cases despite advances in diagnosis and treatment. The LiverTAI project in Spain utilized electronic health records (EHRs) to study factors associated with HCV infection, aiming to develop a predictive model for identifying unconfirmed HCV cases in the hospital setting. PATIENTS AND METHODS: Clinical data from EHRs of six hospitals in Spain were analyzed using machine learning and natural language processing through EHRead®. Patients were categorized as HCV positive, negative, or unknown.",
+    "A semi-supervised learning framework allowed to incorporate labeled and unlabeled patient data extracted from clinical narratives. Propensity score matching was applied to reduce bias. Seven classification algorithms were used to predict HCV status based on 117 selected features, including demographics, risk factors, comorbidities, and clinical events. Model performance was confirmed through independent geographic validation.",
+    "RESULTS: Among 2,440,358 screened patients, 44,235 were included in the training set, and 11,286 in the validation set. The Extreme Gradient Boosting model showed the best performance (AUC-ROC 0.794), followed by the Logistic Regression model (AUC-ROC 0.779). Key predictors included HCV risk factors (age, male sex, HIV, drug use), liver-related issues (cirrhosis, hepatocellular carcinoma), and extrahepatic conditions (neuropsychiatric, cardiovascular, immune-related disorders, cancer, and inflammatory processes). CONCLUSIONS: LiverTAI identified new patients with potential HCV infection in routine hospital EHRs, providing a proof of concept for risk-stratified opportunistic screening.",
+    "The model supports more efficient in-hospital testing strategies, though further prospective validation is required to confirm generalizability and clinical utility."
+  ],
+  "_title": "Development and validation of interpretable machine learning models to detect unconfirmed hepatitis C using electronic health records (LiverTAI).",
+  "_journal": "Gastroenterologia y hepatologia",
+  "_pmid": "42097503",
+  "_citation_count": 0,
+  "_trust_breakdown": {
+    "author_credibility": 0.5,
+    "citation_count": 0.0,
+    "domain_authority": 1.0,
+    "recency": 1.0,
+    "medical_disclaimer": 0.0
+  }
+}
